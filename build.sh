@@ -1,5 +1,5 @@
 #!/bin/sh
 
-security unlock-keychain -p R@tioUmbri@
+security unlock-keychain -p `cat ~/.build_password`
 
 xcodebuild
